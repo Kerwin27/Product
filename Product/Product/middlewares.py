@@ -4,6 +4,8 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from selenium import webdriver
+
 
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
